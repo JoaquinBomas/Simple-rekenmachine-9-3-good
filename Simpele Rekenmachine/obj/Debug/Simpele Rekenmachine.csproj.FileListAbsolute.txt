@@ -17,3 +17,4 @@ C:\Users\j_bom\source\Repos\JoaquinBomas\Simple-rekenmachine-9-3-good\Simpele Re
 C:\Users\j_bom\source\Repos\JoaquinBomas\Simple-rekenmachine-9-3-good\Simpele Rekenmachine\bin\Debug\Simpele Rekenmachine.pdb
 C:\Users\j_bom\source\Repos\JoaquinBomas\Simple-rekenmachine-9-3-good\Simpele Rekenmachine\obj\Debug\Simpele Rekenmachine.exe
 C:\Users\j_bom\source\Repos\JoaquinBomas\Simple-rekenmachine-9-3-good\Simpele Rekenmachine\obj\Debug\Simpele Rekenmachine.pdb
+C:\Users\j_bom\source\Repos\JoaquinBomas\Simple-rekenmachine-9-3-good\Simpele Rekenmachine\obj\Debug\Simpele Rekenmachine.csprojAssemblyReference.cache

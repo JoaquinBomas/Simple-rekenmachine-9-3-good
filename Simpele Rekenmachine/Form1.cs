@@ -39,6 +39,10 @@ namespace Simpele_Rekenmachine
                 resultaat = operand1 * operand2;
             }
 
+            if (operant == "/")
+            {
+                resultaat = operand1 * operand2;
+            }
             return resultaat;
         }
 
