@@ -26,8 +26,9 @@ namespace Simpele_Rekenmachine
             operant = txtOperator.Text;
 
             operand2 = Convert.ToDecimal(txtOperand2.Text);
-
+          
             Calculate(operand1, operant, operand2);
+            
         }
 
         private decimal Calculate(decimal operand1, string operant, decimal operand2)
@@ -37,13 +38,29 @@ namespace Simpele_Rekenmachine
             if (operant == "*")
             {
                 resultaat = operand1 * operand2;
+                txtResult.Text = Convert.ToString(resultaat);
             }
 
             if (operant == "/")
             {
-                resultaat = operand1 * operand2;
+                resultaat = operand1 / operand2;
+                txtResult.Text = Convert.ToString(resultaat);
             }
+
+            if (operant == "-")
+            {
+                resultaat = operand1 - operand2;
+                txtResult.Text = Convert.ToString(resultaat);
+            }
+
+            if (operant == "+")
+            {
+                resultaat = operand1 + operand2;
+                txtResult.Text = Convert.ToString(resultaat);
+            }
+
             return resultaat;
+
         }
 
         //exit button 
