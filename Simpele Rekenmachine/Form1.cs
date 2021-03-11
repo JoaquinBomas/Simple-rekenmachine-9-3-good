@@ -21,20 +21,20 @@ namespace Simpele_Rekenmachine
         {
             decimal operand1 = 0;
             decimal operand2 = 0;
-            string operator;
+            string operant = "";
             operand1 = Convert.ToDecimal(txtOperand1.Text);
-            operator = txtOperator.Text;
+            operant = txtOperator.Text;
 
             operand2 = Convert.ToDecimal(txtOperand2.Text);
 
-            Calculate(operand1, operator, operand2);
+            Calculate(operand1, operant, operand2);
         }
 
-        private decimal Calculate(decimal operand1, string operator, decimal operand2)
+        private decimal Calculate(decimal operand1, string operant, decimal operand2)
         {
             decimal resultaat = 0;
 
-            if (operator == "*")
+            if (operant == "*")
             {
                 resultaat = operand1 * operand2;
             }
